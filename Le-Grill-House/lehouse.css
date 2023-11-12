@@ -1,0 +1,53 @@
+body {
+    font-family: 'cursive', cursive;
+    color: black;
+    background-color: #FDFDFD;
+    transition: all 0.3s ease;
+}
+
+.menu {
+    background-color: #E1AD01;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+.section {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.section h2 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: black;
+}
+
+ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* Red prices */
+ul li::after {
+    content: attr(data-price);
+    float: right;
+    color: red;
+}
+; /* Red for prices */
+}
